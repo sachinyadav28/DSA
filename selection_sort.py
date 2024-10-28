@@ -6,7 +6,7 @@ Time complexity ->
 """
 
 
-def selection_sort(arr):
+def selection_sort(arr) -> None:
     """
     This function will return sorted array by selection sort technique
     by selecting maximum element from the array
@@ -19,7 +19,7 @@ def selection_sort(arr):
         arr[last], arr[max_index] = arr[max_index], arr[last]
 
 
-def get_max_index(arr, start, last):
+def get_max_index(arr, start, last) -> int:
     """
     Returns index of maximum element in the array
     """

@@ -6,7 +6,7 @@ Time complexity ->
 """
 
 
-def insertion_sort(arr):
+def insertion_sort(arr) -> None:
     """
     This function will return sorted array by insertion sort technique
     by sorting array at each pass till index i+1

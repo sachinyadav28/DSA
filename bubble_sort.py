@@ -7,7 +7,7 @@ Time complexity ->
 """
 
 
-def bubble_sort(arr) -> list:
+def bubble_sort(arr) -> None:
     """This function will return sorted array
     using bubble sort technique"""
     swapped = False
@@ -29,6 +29,6 @@ def bubble_sort(arr) -> list:
 # a = [1, 2, 3, 4, 5]
 # a = [-1, 5, -4, 1]
 # a = [2]
-a = []
-bubble_sort(a)
-print(a)
+# a = []
+# bubble_sort(a)
+# print(a)
